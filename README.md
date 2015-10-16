@@ -5,8 +5,8 @@
 <script>
 $(document).ready(function(){
     $("button").click(function(){
-        $("#p1").css("color", "red")
-            .slideUp(2000)
+        $("#a1").css("color", "black")
+            .slideDown(2000)
             
     });
 });
@@ -14,7 +14,7 @@ $(document).ready(function(){
 </head>
 <body>
 
-<p id="p1" color:red>jQuery is fun!!</p>
+<p id="a1" color:red>This is my first code on github</p>
 
 <button>Hello World to test jquery chaining </button>
 
